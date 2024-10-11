@@ -17,7 +17,9 @@ Using zero-knowledge proofs on Aleo, women can:
 - Compare against industry averages
 - Get proof of pay discrepancy without revealing personal data
 - Contribute to aggregate statistics anonymously
+<br><br>
 
+```Deployed Salary_compare Contract: at1m8te2xjkx973ypg7k0ym8ank7a0ya3j3td3y23gmjtuudmu5d5pq3t4gud```
 
 # React + Aleo + Leo
 

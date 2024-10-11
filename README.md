@@ -1,6 +1,23 @@
+
+### Zero Knowledge Salary Equality
+
+A zero-knowledge proof application built on Aleo that enables women to anonymously compare salaries and bridge the gender pay gap.
+
+## Problem Statement
+Women often face challenges in salary negotiations due to lack of transparency and fear of discrimination. This application provides a secure, private way to compare salaries and gain insights for better negotiation.
+
+## Solution
+Using zero-knowledge proofs on Aleo, women can:
+- Submit their salary data privately
+- Compare against industry averages
+- Get proof of pay discrepancy without revealing personal data
+- Contribute to aggregate statistics anonymously
+
+
 # React + Aleo + Leo
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/AleoHQ/sdk/tree/testnet3/create-aleo-app/template-react)
+
 
 This template provides a minimal setup to get React and Aleo working in Vite
 with HMR and some ESLint rules.
@@ -49,40 +66,9 @@ if you are unfamiliar: https://developer.aleo.org/testnet/getting_started/deploy
 
 Aleo programs deployed require unique names, make sure to edit the program's name to something unique in `helloworld/src/main.leo`, `helloworld/program.json`, rename `helloworld/inputs/helloworld.in` and rebuild.
 
-1. In the `worker.js` file modify the privateKey to be an account with available
-   funds
 
-   ```js
-   // Use existing account with funds
-   const account = new Account({
-     privateKey: "user1PrivateKey",
-   });
-   ```
 
-2. (Optional) Provide a fee record manually (located in commented code within `worker.js`)
 
-   If you do not provide a manual fee record, the SDK will attempt to scan for a record starting at the latest block. A simple way to speed this up would be to make a public transaction to this account right before deploying.
-   
-3. Run the web app and hit the deploy button
-
-## Production deployment
-
-### Build
-
-`npm run build`
-
-Upload `dist` folder to your host of choice.
-
-### ⚠️ Header warnings
-
-`DOMException: Failed to execute 'postMessage' on 'Worker': SharedArrayBuffer transfer requires self.crossOriginIsolated`
-
-If you get a warning similar to this when deploying your application, you need
-to make sure your web server is configured with the following headers:
-
-```
-Cross-Origin-Opener-Policy: same-origin
-Cross-Origin-Embedder-Policy: require-corp
 ```
 
 We've included a `_headers` file that works with some web hosts (e.g. Netlify)

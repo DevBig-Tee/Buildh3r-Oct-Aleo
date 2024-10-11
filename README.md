@@ -1,7 +1,12 @@
+### Aleo Zero Knowledge: Empowering Women's Ecosystem<br><br>
 
-### Zero Knowledge Salary Equality
+## Private Financial Transactions <br>
+Use Case Details:
+Private Transfers: Users can transfer tokens without revealing amounts or addresses
+Confidential Assets: Create and trade assets with hidden valuations
 
-A zero-knowledge proof application built on Aleo that enables women to anonymously compare salaries and bridge the gender pay gap.
+### Zero Knowledge Salary Equality<br>
+ A zero-knowledge proof application built on Aleo that enables women to anonymously compare salaries and bridge the gender pay gap.
 
 ## Problem Statement
 Women often face challenges in salary negotiations due to lack of transparency and fear of discrimination. This application provides a secure, private way to compare salaries and gain insights for better negotiation.
@@ -68,9 +73,3 @@ Aleo programs deployed require unique names, make sure to edit the program's nam
 
 
 
-
-```
-
-We've included a `_headers` file that works with some web hosts (e.g. Netlify)
-but depending on your host / server setup you may need to configure the headers
-manually.

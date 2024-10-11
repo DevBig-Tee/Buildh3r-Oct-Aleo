@@ -2,7 +2,7 @@
 
 ## Private Financial Transactions <br>
 Use Case Details:
-Private Transfers: Users can transfer tokens without revealing amounts or addresses
+Private Transfers: Users can transfer tokens without revealing amounts or addresses<br>
 Confidential Assets: Create and trade assets with hidden valuations
 
 ### Zero Knowledge Salary Equality<br>
